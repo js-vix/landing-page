@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# js-vix - landing page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Clone o projeto
+```bash
+git clone https://github.com/js-vix/landing-page.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Instale as dependências
+```bash
+npm install
+```
+
+## Rodar o projeto
+
+Para rodar o projeto, basta rodar o comando abaixo:
+```bash
+npm run dev
+````
+
+Feito isso você poderá acessar a aplicação no endereço `http://localhost:5174/`
+
+## Rodar os testes
+
+Para rodar os testes, basta rodar o comando abaixo:
+
+```bash
+npm run test
+```
+
+## Rodar gerar a cobertura de testes
+
+Para gerar a cobertura de testes, basta rodar o comando abaixo:
+
+```bash
+npm run test:cov
+```
