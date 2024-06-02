@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'NBArchitektStd-Light';
+  src: url('/fonts/NBArchitektStd-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NBArchitektStd-Regular';
+  src: url('/fonts/NBArchitektStd-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NBArchitektStd-Bold';
+  src: url('/fonts/NBArchitektStd-Bold.woff2') format('woff2');
+}
+
+:root {
+  font-family: 'NBArchitektStd-Light';
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
