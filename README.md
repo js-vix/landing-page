@@ -34,3 +34,8 @@ Para gerar a cobertura de testes, basta rodar o comando abaixo:
 ```bash
 npm run test:cov
 ```
+
+## Troubleshoot
+
+Se o tailwind não estiver autocompletando pra você nas sugestões do vscode, faça a inialização do tailwind:
+npx tailwindcss init -p
