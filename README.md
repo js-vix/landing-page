@@ -1,5 +1,7 @@
 # js-vix - landing page
 
+## [Figma](https://www.figma.com/design/VYXsJYHfLMZGeqTdmdPNcv/js-vix---divulga%C3%A7%C3%A3o?m=dev&node-id=249-566&t=Hnif80X7vGKHZaOb-1)
+
 ## Clone o projeto
 ```bash
 git clone https://github.com/js-vix/landing-page.git
