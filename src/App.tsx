@@ -1,9 +1,13 @@
-function App() {
-  return (
-    <div className="bg-teal-600">
-      <h1 className="text-3xl font-bold">Bem vindo tropinha!</h1>
-    </div>
-  );
-}
+import Navbar from "./components/Navbar";
+import Layout from "./pages/Layout";
+import Footer from "./components/Footer";
+
+const App = () => (
+  <>
+    <Navbar />
+    <Layout />
+    <Footer />
+  </>
+);
 
 export default App;

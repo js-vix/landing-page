@@ -2,26 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'NBArchitektStd-Light';
-  src: url('/fonts/NBArchitektStd-Light.woff2') format('woff2');
+@layer base{
+  @font-face {
+    font-family: 'GeistMono-Bold';
+    src: url('/fonts/GeistMono-Bold.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'GeistMonoVF';
+    src: url('/fonts/GeistMonoVF.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'NBArchitektStd-Light';
+    src: url('/fonts/NBArchitektStd-Light.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'NBArchitektStd-Regular';
+    src: url('/fonts/NBArchitektStd-Regular.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'NBArchitektStd-Bold';
+    src: url('/fonts/NBArchitektStd-Bold.woff2') format('woff2');
+  }
 }
-
-@font-face {
-  font-family: 'NBArchitektStd-Regular';
-  src: url('/fonts/NBArchitektStd-Regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'NBArchitektStd-Bold';
-  src: url('/fonts/NBArchitektStd-Bold.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'GeistMonoVF';
-  src: url('/fonts/GeistMonoVF.woff2') format('woff2');
-}
-
 
 :root {
   font-family: 'NBArchitektStd-Light';
