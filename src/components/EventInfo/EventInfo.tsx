@@ -8,7 +8,7 @@ export const EventInfo = () => {
         <div className="flex flex-col md:w-1/2 p-5 sm:p-10 md:p-10 ">
           <h2 className="text-xl font-semibold mb-2 text-[32px] md:text-[48px] md:mb-40 mb-10">INFO.</h2>
           <div className="flex items-center mb-4">
-          <svg width="25" className="mr-3" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          {/* <svg width="25" className="mr-3" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M8.33337 2.08331V5.20831" stroke="#292D32" stroke-width="1.32222" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M16.6667 2.08331V5.20831" stroke="#292D32" stroke-width="1.32222" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M3.64587 9.46875H21.3542" stroke="#292D32" stroke-width="1.32222" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -19,17 +19,15 @@ export const EventInfo = () => {
             <path d="M12.4953 17.3958H12.5046" stroke="#292D32" stroke-width="1.76296" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M8.63993 14.2708H8.64928" stroke="#292D32" stroke-width="1.76296" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M8.63993 17.3958H8.64928" stroke="#292D32" stroke-width="1.76296" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            </svg> */}
+            <img className="mr-3" src="/icons/calendar.svg" alt="Ícone" />
             <div>
               <p className="font-bold text-[24px]">WE BELIVE HUB</p>
               <p className="text-sm text-gray-600 text-[16px]">Praia da Costa, VV - ES</p>
             </div>
           </div>
           <div className="flex items-center">
-            <svg className="mr-3" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12.5 13.9896C14.2949 13.9896 15.75 12.5345 15.75 10.7396C15.75 8.94464 14.2949 7.48956 12.5 7.48956C10.7051 7.48956 9.25 8.94464 9.25 10.7396C9.25 12.5345 10.7051 13.9896 12.5 13.9896Z" stroke="#292D32" stroke-width="1.51669"/>
-            <path d="M3.77082 8.84373C5.8229 -0.177101 19.1875 -0.166685 21.2291 8.85415C22.4271 14.1458 19.1354 18.625 16.25 21.3958C14.1562 23.4167 10.8437 23.4167 8.73957 21.3958C5.86457 18.625 2.5729 14.1354 3.77082 8.84373Z" stroke="#292D32" stroke-width="1.51669"/>
-            </svg>
+          <img className="mr-3" src="/icons/location.svg" alt="Ícone" />
             <div>
               <p className="font-bold text-[24px]">22 DE MAIO</p>
               <p className="text-sm text-gray-600 text-[16px]">a partir das 19hrs</p>
