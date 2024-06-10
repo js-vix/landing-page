@@ -1,5 +1,5 @@
 interface TitleProps {
-    children: React.ReactNode;
+    children: String;
   }
   
   export const Title = ({ children }: TitleProps) => (

@@ -1,6 +1,6 @@
 
-import Title from "../Titulo"
-const EventInfo = () => {
+import Title from "../Title"
+export const EventInfo = () => {
   return (
     <div className="flex flex-col items-center p-8 container mx-auto p">
        <Title>DATA E HORÁRIO_</Title>
@@ -43,5 +43,3 @@ const EventInfo = () => {
     </div>
   );
 };
-
-export default EventInfo;

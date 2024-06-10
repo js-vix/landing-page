@@ -1,4 +1,4 @@
-import EventInfo from "../components/EventInfo/EventInfo"
+import EventInfo from "../components/EventInfo/"
 
 const Layout = () => <>
     <EventInfo />
