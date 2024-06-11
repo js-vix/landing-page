@@ -8,19 +8,7 @@ export const EventInfo = () => {
         <div className="flex flex-col md:w-1/2 p-5 sm:p-10 md:p-10 ">
           <h2 className="text-xl font-semibold mb-2 text-[32px] md:text-[48px] md:mb-40 mb-10">INFO.</h2>
           <div className="flex items-center mb-4">
-          {/* <svg width="25" className="mr-3" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8.33337 2.08331V5.20831" stroke="#292D32" stroke-width="1.32222" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M16.6667 2.08331V5.20831" stroke="#292D32" stroke-width="1.32222" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M3.64587 9.46875H21.3542" stroke="#292D32" stroke-width="1.32222" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M21.875 8.85415V17.7083C21.875 20.8333 20.3125 22.9166 16.6667 22.9166H8.33333C4.6875 22.9166 3.125 20.8333 3.125 17.7083V8.85415C3.125 5.72915 4.6875 3.64581 8.33333 3.64581H16.6667C20.3125 3.64581 21.875 5.72915 21.875 8.85415Z" stroke="#292D32" stroke-width="1.32222" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M16.3486 14.2708H16.358" stroke="#292D32" stroke-width="1.76296" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M16.3486 17.3958H16.358" stroke="#292D32" stroke-width="1.76296" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M12.4953 14.2708H12.5046" stroke="#292D32" stroke-width="1.76296" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M12.4953 17.3958H12.5046" stroke="#292D32" stroke-width="1.76296" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M8.63993 14.2708H8.64928" stroke="#292D32" stroke-width="1.76296" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M8.63993 17.3958H8.64928" stroke="#292D32" stroke-width="1.76296" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg> */}
-            <img className="mr-3" src="/icons/calendar.svg" alt="Ícone" />
+           <img className="mr-3" src="/icons/calendar.svg" alt="Ícone" />
             <div>
               <p className="font-bold text-[24px]">WE BELIVE HUB</p>
               <p className="text-sm text-gray-600 text-[16px]">Praia da Costa, VV - ES</p>
