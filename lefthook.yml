@@ -1,0 +1,4 @@
+pre-commit:
+  scripts:
+    "main-branch-check.sh":
+      runner: bash
