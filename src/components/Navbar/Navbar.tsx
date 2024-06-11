@@ -27,7 +27,7 @@ export const Navbar = () => (
 				</a>
 			</li>
 		</ul>
-		<Button className="hidden lg:flex">
+		<Button className="hidden sm:flex">
 			Ingressos
 			<div className="p-2 bg-white rounded-full">
 				<svg
