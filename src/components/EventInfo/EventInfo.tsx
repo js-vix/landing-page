@@ -23,7 +23,7 @@ export const EventInfo = () => {
           </div>
         </div>
         <div className="md:w-1/2 h-[300px] md:h-auto">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.2692438653166!2d-40.28380372395748!3d-20.33049295090628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817c78e90e84b%3A0xe4a135ea34b16aab!2sWeBelieve%20Hub%20e%20Coworking!5e0!3m2!1spt-BR!2sbr!4v1718046131523!5m2!1spt-BR!2sbr" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.2692438653166!2d-40.28380372395748!3d-20.33049295090628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817c78e90e84b%3A0xe4a135ea34b16aab!2sWeBelieve%20Hub%20e%20Coworking!5e0!3m2!1spt-BR!2sbr!4v1718046131523!5m2!1spt-BR!2sbr" width="100%" height="100%" allowFullScreen="false" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
