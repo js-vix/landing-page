@@ -51,7 +51,7 @@ npx tailwindcss init -p
     <tbody>
         <tr>
             <td align="center" valign="top" width="14.28%">
-                <a href="https://mikaelhadler.com.br">
+                <a href="https://github.com/mikaelhadler">
                     <img src="https://avatars.githubusercontent.com/u/6784777?v=4" width="100px;" alt="Mikael Hadler" /><br />
                     <sub><b>Mikael Hadler</b></sub>
                 </a>
