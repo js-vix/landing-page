@@ -41,3 +41,39 @@ npm run test:cov
 
 Se o tailwind não estiver autocompletando pra você nas sugestões do vscode, faça a inialização do tailwind:
 npx tailwindcss init -p
+
+
+--- 
+
+# Contribuidores
+
+<table>
+    <tbody>
+        <tr>
+            <td align="center" valign="top" width="14.28%">
+                <a href="https://mikaelhadler.com.br">
+                    <img src="https://avatars.githubusercontent.com/u/6784777?v=4" width="100px;" alt="Mikael Hadler" /><br />
+                    <sub><b>Mikael Hadler</b></sub>
+                </a>
+            </td>
+            <td align="center" valign="top" width="14.28%">
+                <a href="https://github.com/phgm2">
+                    <img src="https://avatars.githubusercontent.com/u/109976463?v=4" width="100px;" alt="PH" /><br />
+                    <sub><b>PH</b></sub>
+                </a>
+            </td>
+            <td align="center" valign="top" width="14.28%">
+                <a href="https://github.com/julianlbs">
+                    <img src="https://avatars.githubusercontent.com/u/36119523?v=4" width="100px;" alt="Julian" /><br />
+                    <sub><b>Julian</b></sub>
+                </a>
+            </td>
+            <td align="center" valign="top" width="14.28%">
+                <a href="https://github.com/LucasLyra01">
+                    <img src="https://avatars.githubusercontent.com/u/50704165?v=4" width="100px;" alt="Lucas Lyra" /><br />
+                    <sub><b>Lucas Lyra</b></sub>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
