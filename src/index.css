@@ -39,3 +39,13 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+.bg-gradient-hero {
+  background: linear-gradient(to bottom, transparent 0%, transparent 75%, rgba(255, 255, 255, 0.5) 80%, white 100%);
+}
+
+@media screen and (min-width: 768px ) {
+  .bg-gradient-hero {
+    background: linear-gradient(to bottom, transparent 0%, transparent 65%, rgba(255, 255, 255, 0.5) 75%, white 85%);
+  }
+}
