@@ -3,11 +3,11 @@ import Layout from "./pages/Layout";
 import Footer from "./components/Footer";
 
 const App = () => (
-  <>
-    <Navbar />
-    <Layout />
-    <Footer />
-  </>
+	<>
+		<Navbar />
+		<Layout />
+		<Footer />
+	</>
 );
 
 export default App;

@@ -1,7 +1,9 @@
 import EventInfo from "../components/EventInfo/"
+import Hero from "../components/Hero/Hero";
 
 const Layout = () => <>
-    <EventInfo />
+  <Hero />
+  <EventInfo />
 </>;
 
 export default Layout;
