@@ -4,7 +4,7 @@ import React from "react";
 export const Sponsors = () => {
   return (
     <div>
-      <span className="mt-10 flex  justify-center align-middle text-[24px] leading-6 font-bold font-nb-architekt-regular ">
+      <span className="mt-10 flex justify-center align-middle text-[24px] leading-6 font-bold font-nb-architekt-regular ">
         Patrocinadores
       </span>
       <div className="mt-10 grid grid-cols-2 justify-items-center sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 lg:flex lg:justify-center lg:items-center lg:gap-0">
