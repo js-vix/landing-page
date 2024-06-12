@@ -10,14 +10,14 @@ export const EventInfo = () => {
           <div className="flex items-center mb-4">
            <img className="mr-3" src="/icons/calendar.svg" alt="Ícone" />
             <div>
-              <p className="font-bold text-[24px]">WE BELIVE HUB</p>
-              <p className="text-sm text-gray-600 text-[16px]">Praia da Costa, VV - ES</p>
+              <p className=" text-[24px] font-bold">WE BELIVE HUB</p>
+              <p className="text-sm  text-gray-600 text-[16px]">Praia da Costa, VV - ES</p>
             </div>
           </div>
           <div className="flex items-center">
           <img className="mr-3" src="/icons/location.svg" alt="Ícone" />
             <div>
-              <p className="font-bold text-[24px]">22 DE MAIO</p>
+              <p className=" text-[24px] font-bold">22 DE MAIO</p>
               <p className="text-sm text-gray-600 text-[16px]">a partir das 19hrs</p>
             </div>
           </div>

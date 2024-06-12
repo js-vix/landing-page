@@ -2,30 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+@layer base {
   @font-face {
     font-family: 'GeistMono-Bold';
     src: url('/fonts/GeistMono-Bold.woff2') format('woff2');
   }
+
   @font-face {
     font-family: 'GeistMonoVF';
     src: url('/fonts/GeistMonoVF.woff2') format('woff2');
   }
+
   @font-face {
     font-family: 'NBArchitektStd-Light';
     src: url('/fonts/NBArchitektStd-Light.woff2') format('woff2');
   }
-  
+
   @font-face {
     font-family: 'NBArchitektStd-Regular';
     src: url('/fonts/NBArchitektStd-Regular.woff2') format('woff2');
   }
-  
+
   @font-face {
     font-family: 'NBArchitektStd-Bold';
     src: url('/fonts/NBArchitektStd-Bold.woff2') format('woff2');
   }
 }
+
 
 :root {
   font-family: 'NBArchitektStd-Light';
@@ -44,7 +47,7 @@ body {
   background: linear-gradient(to bottom, transparent 0%, transparent 75%, rgba(255, 255, 255, 0.5) 80%, white 100%);
 }
 
-@media screen and (min-width: 768px ) {
+@media screen and (min-width: 768px) {
   .bg-gradient-hero {
     background: linear-gradient(to bottom, transparent 0%, transparent 65%, rgba(255, 255, 255, 0.5) 75%, white 85%);
   }
