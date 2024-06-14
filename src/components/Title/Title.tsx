@@ -1,5 +1,5 @@
 interface TitleProps {
-    children: String;
+    children: string;
   }
   
   export const Title = ({ children }: TitleProps) => (

@@ -5,18 +5,16 @@ export const Footer = () => {
     <footer className="flex flex-col items-center p-8 container mx-auto">
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center">
         <div className="mb-12 sm:mb-0">
-          <Button className="pr-1 w-full sm:w-auto justify-between items-center">
-            <span className="pr-2 whitespace-nowrap">
-              Garanta seu ingresso!
-            </span>
-            <div className="p-2 bg-white rounded-full">
+          <Button className="sm:flex w-full sm:w-auto justify-between items-center gap-4">
+            Garanta seu ingresso!
+            <div className="p-2 bg-white rounded-full mr-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="#292D32"
-                className="h-6 w-6"
+                className="size-6"
               >
                 <path
                   strokeLinecap="round"
@@ -31,7 +29,7 @@ export const Footer = () => {
         <div className="flex space-x-6">
           <a href="mailto:jsvix.contato@gmail.com">
             <img
-              src="/public/icons/email.svg"
+              src="/icons/email.svg"
               alt="Email de contato"
               className="h-7 w-7"
             />
@@ -42,7 +40,7 @@ export const Footer = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/public/icons/instagram.svg"
+              src="/icons/instagram.svg"
               alt="Instagram"
               className="h-7 w-7"
             />
@@ -53,7 +51,7 @@ export const Footer = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/public/icons/linkedin.svg"
+              src="/icons/linkedin.svg"
               alt="LinkedIn"
               className="h-7 w-7"
             />
