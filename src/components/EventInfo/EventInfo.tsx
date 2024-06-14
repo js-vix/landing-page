@@ -2,9 +2,9 @@
 import Title from "../Title"
 export const EventInfo = () => {
   return (
-    <div className="flex flex-col items-center p-8 container mx-auto p">
+    <div className="flex flex-col items-center p-8 container mx-auto p md:mb-[100px]">
        <Title>DATA E HORÁRIO_</Title>
-      <div className="flex flex-col md:flex-row bg-[#F9F9F9] shadow-none rounded-xl overflow-hidden w-full">
+      <div className="flex flex-col md:flex-row bg-[#F9F9F9] shadow-none rounded-3xl overflow-hidden w-full">
         <div className="flex flex-col md:w-1/2 p-5 sm:p-10 md:p-10 ">
           <h2 className="text-xl font-semibold mb-2 text-[32px] md:text-[48px] md:mb-40 mb-10">INFO.</h2>
           <div className="flex items-center mb-4">
