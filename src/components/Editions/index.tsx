@@ -43,7 +43,7 @@ export default function Editions() {
 			<Carousel opts={{ startIndex: 2 }} className="relative flex flex-col md:mr-auto md:ml-[-8rem] lg:ml-[-20rem]">
 				<CarouselContent className="flex">
 				{editions.map((edition, index) => (
-					<CarouselItem key={index} className={`p-3 flex ${edition.location ? 'md:basis-1/4 lg:basis-1/4' : 'md:basis-1/2 lg:basis-1/2'}`}>
+					<CarouselItem key={index} className={`p-3 flex ${edition.location ? 'md:basis-1/4 lg:basis-1/4' : 'md:basis-1/2 lg:basis-1/2'} hover:drop-shadow-lg cursor-pointer`}>
 					  {!edition.location && (
 					  <div className="flex flex-col bg-[#F9F9F9] rounded-3xl w-full">
 							<img src={edition.img} alt={edition.title} className="rounded-t-3xl" />
@@ -71,8 +71,10 @@ export default function Editions() {
 				))}
 				</CarouselContent>
 				<div className="absolute flex justify-center space-x-1 -bottom-10 md:-bottom-16 md:left-[25%]">
-					<CarouselPrevious className="absolute w-[50px] h-[50px] md:w-[40px] md:h-[40px] left-[0] md:left-0 -bottom-1 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full">‹</CarouselPrevious>
-					<CarouselNext className="absolute w-[50px] h-[50px] md:w-[40px] md:h-[40px] left-12 md:left-10 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full">›</CarouselNext>
+					<CarouselPrevious className="absolute w-[50px] h-[50px] md:w-[40px] md:h-[40px] left-[0] md:left-0 -bottom-1 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full border-none">
+					</CarouselPrevious>
+					<CarouselNext className="absolute w-[50px] h-[50px] md:w-[40px] md:h-[40px] left-12 md:left-10 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full border-none">
+					</CarouselNext>
 				</div>
 			</Carousel>
 		</div>
