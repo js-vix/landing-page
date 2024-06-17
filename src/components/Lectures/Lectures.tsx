@@ -16,8 +16,7 @@ export default function Lectures() {
           <LectureCard
             key={i}
             title={lecture.title}
-            lecturerNames={lecture.lecturerNames}
-            lecturerPics={lecture.lecturerPics}
+            lecturers={lecture.lecturers}
           />
         ))}
       </div>
@@ -39,17 +38,33 @@ export default function Lectures() {
 const LECTURES: LectureCardProps[] = [
   {
     title: "WTF JS",
-    lecturerNames: ["Mikael", "Erasmo"],
-    lecturerPics: ["/contribuidores/mikael.png", "/contribuidores/erasmo.png"],
+    lecturers: [
+      {
+        name: "Mikael",
+        linkedin: "https://www.linkedin.com/in/mikaelhadler",
+        pic: "/contribuidores/mikael.png",
+      },
+      {
+        name: "Erasmo",
+        linkedin: "https://www.linkedin.com/in/erasmo-dev",
+        pic: "/contribuidores/erasmo.png",
+      },
+    ],
   },
   {
     title: "Criando aplicações com Firebase e Javascript",
-    lecturerNames: "Caio Fuzatto",
-    lecturerPics: "/contribuidores/caio-fuzatto.png",
+    lecturers: {
+      name: "Caio Fuzatto",
+      linkedin: "https://www.linkedin.com/in/itsmicaio",
+      pic: "/contribuidores/caio-fuzatto.png",
+    },
   },
   {
     title: "Aonde o JS pode te levar",
-    lecturerNames: "Bernardo S",
-    lecturerPics: "/contribuidores/bernardo-s.png",
+    lecturers: {
+      name: "Bernardo S",
+      linkedin: "https://www.linkedin.com/in/bernardosm",
+      pic: "/contribuidores/bernardo-s.png",
+    },
   },
 ];
