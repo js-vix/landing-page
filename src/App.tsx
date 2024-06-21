@@ -1,13 +1,10 @@
-import Navbar from "./components/Navbar";
-import Layout from "./pages/Layout";
-import Footer from "./components/Footer";
+import { Layout } from "./components/Layout";
+import Home from "./pages/Home";
 
 const App = () => (
-	<>
-		<Navbar />
-		<Layout />
-		<Footer />
-	</>
+  <Layout>
+    <Home />
+  </Layout>
 );
 
 export default App;
