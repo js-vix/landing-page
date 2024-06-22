@@ -5,7 +5,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/primitives/carousel";
+} from "@/components/primitives/ui/carousel";
 
 const editions = [
   {
