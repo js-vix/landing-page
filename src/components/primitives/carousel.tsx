@@ -223,16 +223,16 @@ const CarouselPrevious = React.forwardRef<
         <path
           d="M4 12H20"
           stroke="white"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M9 17C9 17 4 13.3176 4 12C4 10.6824 9 7 9 7"
           stroke="white"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
 
@@ -274,16 +274,16 @@ const CarouselNext = React.forwardRef<
         <path
           d="M20 12H4"
           stroke="white"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M15 7C15 7 20 10.6824 20 12C20 13.3176 15 17 15 17"
           stroke="white"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
       <span className="sr-only">Next slide</span>
