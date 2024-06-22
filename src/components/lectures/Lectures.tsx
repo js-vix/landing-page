@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../button";
 import LectureCard, { type LectureCardProps } from "./LectureCard";
 
 export default function Lectures() {

@@ -1,4 +1,4 @@
-import { Button } from "../Button/Button";
+import { Button } from "../button/Button";
 
 export const Footer = () => {
   return (
@@ -50,11 +50,7 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src="/icons/linkedin.svg"
-              alt="LinkedIn"
-              className="h-7 w-7"
-            />
+            <img src="/icons/linkedin.svg" alt="LinkedIn" className="h-7 w-7" />
           </a>
         </div>
       </div>
