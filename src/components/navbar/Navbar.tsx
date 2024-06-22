@@ -1,4 +1,5 @@
 import Button from "../button";
+import { signIn } from "@/lib/firebase";
 
 export const Navbar = () => (
   <nav
@@ -27,7 +28,7 @@ export const Navbar = () => (
         </a>
       </li>
     </ul>
-    <Button className="hidden sm:flex">
+    <Button className="hidden sm:flex" onClick={signIn}>
       Ingressos
       <div className="p-2 bg-white rounded-full">
         <svg
