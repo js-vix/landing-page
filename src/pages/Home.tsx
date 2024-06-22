@@ -1,8 +1,8 @@
-import Editions from "../components/Editions";
-import EventInfo from "../components/EventInfo";
-import Hero from "../components/Hero";
-import Lectures from "../components/Lectures";
-import Sponsors from "../components/Sponsors";
+import Editions from "@/components/editions";
+import EventInfo from "@/components/event-info";
+import Hero from "@/components/hero";
+import Lectures from "@/components/lectures";
+import Sponsors from "@/components/sponsors";
 
 export default function Home() {
   return (

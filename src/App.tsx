@@ -1,5 +1,5 @@
-import { Layout } from "./components/Layout";
-import Home from "./pages/Home";
+import { Layout } from "@/components/layout";
+import Home from "@/pages/Home";
 
 const App = () => (
   <Layout>
