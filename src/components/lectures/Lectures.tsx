@@ -1,5 +1,7 @@
-import Button from "../button";
-import LectureCard, { type LectureCardProps } from "./LectureCard";
+import Button from "@/components/button";
+import LectureCard, {
+  type LectureCardProps,
+} from "@/components/lectures/LectureCard";
 
 export default function Lectures() {
   return (

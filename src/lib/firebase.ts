@@ -7,6 +7,7 @@ import {
   OAuthCredential,
   getAdditionalUserInfo,
 } from "firebase/auth";
+console.log("import.meta.env.DEV", import.meta.env.MODE);
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_API_KEY,
@@ -22,7 +23,6 @@ export const app = initializeApp(firebaseConfig);
 export const analytics = getAnalytics(app);
 
 export const signIn = () => {
-  debugger;
   const auth = getAuth(app);
   const provider = new GoogleAuthProvider();
   signInWithPopup(auth, provider)
@@ -32,13 +32,13 @@ export const signIn = () => {
         GoogleAuthProvider.credentialFromResult(result);
       const token = credential?.accessToken;
       // The signed-in user info.
-      const user = result.user;
-      const userInfo = getAdditionalUserInfo(result);
-      console.log("token", token);
-      console.log("user", user);
-      console.log("userInfo", userInfo);
-      // IdP data available using getAdditionalUserInfo(result)
-      // ...
+      if (import.meta.env.MODE === "development") {
+        const user = result.user;
+        const userInfo = getAdditionalUserInfo(result);
+        console.log("token", token);
+        console.log("user", user);
+        console.log("userInfo", userInfo);
+      }
     })
     .catch((error) => {
       // Handle Errors here.

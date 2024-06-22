@@ -1,4 +1,5 @@
-import Title from "../title";
+import Title from "@/components/title";
+
 export const EventInfo = () => {
   return (
     <div className="flex flex-col items-center p-8 container mx-auto p md:mb-[100px]">

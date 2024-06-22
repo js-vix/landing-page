@@ -1,3 +1,3 @@
-import { Title } from "./Title";
+import { Title } from "@/components/title/Title";
 
 export default Title;
